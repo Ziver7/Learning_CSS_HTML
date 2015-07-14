@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html>
+<head> 
+	<title>Justin Tu Mini-Bio</title>
+	<link rel="stylesheet" href="Webpage1_Style.css" type="text/css">
+</head>
 <body>
-<h1>
-	Justin Tu
-</h1>
-<h2>About</h2>
-<p>My name is Justin, which you probably figured out from the heading in this /n</p>
-<h2>Courses</h2>
-<p></p>
-<h2>Interests</h2>
-<p></p>
+	<h1 style="color:#000099; ">Justin Tu</h1>
+	<img style = "position: absolute; top: 5px;	right: 500px;" src="ProfessionalPhoto.jpg" alt="Picture of Justin" width="240" height="360">
+	<h2 stlye = "color:#FFF000">About</h2>
+	<p>My name is Justin, which you probably figured out from the header.</p>
+	
+
+	<h2>Courses</h2>
+	<table border ="1">
+		<tr>
+			<th>Course Number</th>
+			<th>Course Title</th>
+			<th>Semester Taken</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>For Credit</th>
+			<th></th>
+		</tr>
+		<tr style ="color:green">
+			<td>CS 157</td>
+			<td>HTML Web Design</td>
+			<td>Fall 2015</td>
+		</tr>
+		<tr style ="background-color: #B8B8B8">
+			<td>CS 146</td>
+			<td>Intro to Data Structres and Algorithms</td>
+			<td>Spring 2014</td>
+		</tr>
+		<tr>
+			<td>AMS 1A</td>
+			<td>American Studies</td>
+			<td>Fall 2013</td>
+		</tr>
+		<tr>
+			<th></th>
+			<th>Listener</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>CS 100W</td>
+			<td>Technical Writing</td>
+			<td>Spring 2015</td>
+		</tr>
+	</table>
+	<p></p>
+	<h2>Interests</h2>
+	<p>I enjoy programming, playing indie video games like <a href="http://www.grimrock.net/" >Legend of Grimrock</a>, and spending time with my family.</p>
+	<h2>Submit Some Info</h2>
+	<form id="gatherForm">
+
+		Favorite Color: <input type = "text" maxlength = "20"/> </br>
+		Do you like pets? 
+		Yes: <input type ="radio" name="pets?" value="Yes">
+		No: <input type ="radio" name="pets?" value="No"> </br>
+
+		If you own a pet, which do you own? 
+		Dog <input type ="checkbox" name="pet" value="Dog">
+		Cat <input type ="checkbox" name="pet" value="Cat">
+		Fish <input type ="checkbox" name="pet" value="Fish">
+		Other <input type ="checkbox" name="pet" value="Other">
+
+	</form>
+	<button type = "button" onclick="alert('Non-functional')">Submit</button>
+
 
 </body>
 </html>

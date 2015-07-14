@@ -1,0 +1,11 @@
+h2 {
+	font: 32px "Garamond", serif;
+	color: #FF0000;
+	font-weight: bold;
+}
+p {
+	font: 24px "Times New Roman", serif;
+	color: black;
+}
+a:link{color: blue;}
+a:visited{color: red;}
